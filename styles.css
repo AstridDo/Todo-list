@@ -1,0 +1,92 @@
+body 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #BA4C36;
+}
+
+.container 
+{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 
+{
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+form 
+{
+  margin-bottom: 20px;
+}
+
+input[type="text"] 
+{
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+input[type="submit"], button 
+{
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #32AFE8;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+input[type="submit"]:hover, button:hover 
+{
+  background-color: #2A9CD0;
+}
+
+ol 
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+li 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:nth-child(odd) 
+{
+  background-color: #EAD2D2;
+}
+
+li:nth-child(even) 
+{
+  background-color: #DFDFEE;
+}
+
+li button
+{
+  background-color: #e74c3c;
+  margin-bottom: 5px;
+}
+
+li button:hover 
+{
+  background-color: #c0392b;
+}
